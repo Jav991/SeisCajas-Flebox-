@@ -1,0 +1,40 @@
+*{
+    background-color: aliceblue;
+    margin: 0;
+    box-sizing: border-box;
+}
+#contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.servicio{
+    width: 30%;
+    text-align: center;
+}
+
+.servicio img{
+    width: 40%;
+    border: 5px outset red;
+}
+
+.servicio p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px 5px black;
+}
+
+nav{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    
+}
